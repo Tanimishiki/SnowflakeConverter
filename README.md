@@ -1,2 +1,7 @@
 # SnowflakeConverter
- A Discord snowflake converter.
+
+## Example:
+```ts
+import { SnowflakeConverter } from "./snowflakeConverter";
+console.log(SnowflakeConverter.convert("Discord user ID here."));
+```
